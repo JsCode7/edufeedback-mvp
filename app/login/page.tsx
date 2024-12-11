@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 export default function Login() {
@@ -29,6 +29,7 @@ export default function Login() {
   };
 
   return (
+    <Suspense>
     <div className="flex flex-col items-center justify-center h-full p-4">
       <h2 className="text-xl font-semibold mb-6">Iniciar Sesión</h2>
       <input
@@ -53,5 +54,6 @@ export default function Login() {
         Iniciar Sesión
       </button>
     </div>
+    </Suspense>
   );
 }
