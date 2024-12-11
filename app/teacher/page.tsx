@@ -40,7 +40,7 @@ export default function Teacher() {
       {showQR && (
         <div className="mt-6">
           <h3 className="text-lg font-semibold mb-4">Clase creada:</h3>
-          <QRCodeCanvas value={`https://tu-proyecto.vercel.app/login?classCode=${classCode}`} size={150} />
+          <QRCodeCanvas value={`https://edufeedback-mvp.vercel.app/login?classCode=${classCode}`} size={150} />
           <p className="mt-4 text-white">Código de clase: <strong>{classCode}</strong></p>
         </div>
       )}
