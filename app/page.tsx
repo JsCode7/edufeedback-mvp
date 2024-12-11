@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-full p-4">
     <h1 className="text-2xl font-bold mb-8">Edufeedback App</h1>
     <Link href="/login">
-      <button className="bg-purple-500 text-white px-6 py-3 rounded-md">
+      <button className="bg-purple-500 text-white px-6 py-3 rounded-md font-bold">
         Iniciar sesión
       </button>
     </Link>

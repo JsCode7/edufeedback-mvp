@@ -30,7 +30,7 @@ export default function LoginContent() {
 
   return (
     <div className="flex flex-col items-center justify-center h-full p-4">
-      <h2 className="text-xl font-semibold mb-6">Iniciar Sesión</h2>
+      <h2 className="text-3xl font-semibold mb-6">Iniciar Sesión</h2>
       <input
         type="text"
         placeholder="Nombre de usuario"
@@ -48,7 +48,7 @@ export default function LoginContent() {
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <button
         onClick={handleLogin}
-        className="bg-purple-500 text-white px-6 py-3 rounded-md"
+        className="bg-purple-500 text-white px-6 py-3 rounded-md font-bold"
       >
         Iniciar Sesión
       </button>

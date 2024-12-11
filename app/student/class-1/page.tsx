@@ -34,9 +34,9 @@ export default function ClassFeedback() {
   };
 
   return (
-    <div className="flex flex-col gap-8">
-    <div className="flex flex-col items-center justify-center h-full p-4">
-      <h2 className="text-xl font-semibold mb-6">Clase Matemática 1</h2>
+    <div className="flex flex-col h-full justify-center">
+    <div className="flex flex-col items-center justify-center p-4">
+      <h2 className="text-3xl font-semibold mb-6">Clase Matemática 1</h2>
       <textarea
         value={feedback}
         onChange={(e) => setFeedback(e.target.value)}
@@ -45,12 +45,12 @@ export default function ClassFeedback() {
       />
       <button
         onClick={handleSubmit}
-        className="bg-green-500 text-white px-6 py-3 rounded-md"
+        className="bg-buttonPurple text-white px-6 py-3 rounded-md font-bold"
       >
         Enviar
       </button>
     </div>
-    <div className="flex flex-col items-center justify-center h-full p-4">
+    <div className="flex flex-col items-center justify-center p-4">
     <h2 className="text-xl font-semibold mb-6">Clase Matemática 1</h2>
     <p className="mb-4">¿Cómo te sientes con la clase?</p>
     <div className="flex space-x-4">

@@ -9,8 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        buttonPurple: '#8c52ff', // Color del botón
+      },
+      backgroundImage: {
+        'circular-gradient': 'radial-gradient(circle at top left, #3d194b, #111119)', // Degradado circular
       },
     },
   },

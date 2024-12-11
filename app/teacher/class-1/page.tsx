@@ -53,7 +53,7 @@ export default function ClassView() {
 
   return (
     <div className="flex flex-col items-center justify-center h-full p-4">
-      <h2 className="text-xl font-semibold mb-6">Clase Matemática 1</h2>
+      <h2 className="text-3xl font-semibold mb-6">Clase Matemática 1</h2>
       <Chart options={chartOptions} series={chartSeries} type="donut" width="300" />
       <div className="mt-6">
         <h3 className="text-lg font-semibold mb-2">Comentarios:</h3>

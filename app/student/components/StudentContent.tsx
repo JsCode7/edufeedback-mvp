@@ -27,7 +27,7 @@ export default function StudentContent() {
 
   return (
     <div className="flex flex-col items-center justify-center h-full p-4">
-      <h2 className="text-xl font-semibold mb-6">Unirse a la Clase</h2>
+      <h2 className="text-3xl font-semibold mb-6">Unirse a la Clase</h2>
       <p className="mb-4">Ingresa el código de la clase:</p>
       <input
         type="text"
@@ -39,7 +39,7 @@ export default function StudentContent() {
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <button
         onClick={handleJoinWithCode}
-        className="bg-blue-500 text-white px-6 py-3 rounded-md"
+        className="bg-buttonPurple text-white px-6 py-3 rounded-md font-bold"
       >
         Unirse
       </button>
